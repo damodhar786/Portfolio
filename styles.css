@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 :root {
     --primary-color: #2DD4BF;
@@ -7,8 +8,11 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Yeon Sung', cursive; */
+    font-family: 'Syne Mono', monospace;
+    /* font-size: x-large; */
     margin: 0px;
+    
 }
 
 hr {
@@ -55,6 +59,10 @@ hr {
 
 /** List **/
 
+ol {
+    padding-inline-start: 0px;
+}
+
 .list-no-bullet {
     list-style: none;
 }
@@ -69,13 +77,14 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 0rem;
+    padding: 0.5rem 0rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: x-large;
+    margin-left: 0.5rem;
 }
 
 .navigation .nav-list {
@@ -88,6 +97,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    font-size: 20px;
 }
 
 /** Header **/
@@ -133,7 +143,7 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    /* color: white; */
     border-top-right-radius: 1rem;
 }
 
@@ -148,4 +158,9 @@ hr {
 
 .footer .link{
     color: white;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: xx-large;
 }
