@@ -61,13 +61,7 @@ hr {
 
 ol {
     padding-inline-start: 0px;
-    /* display: block;
-    list-style-type: decimal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; */
+
 }
 
 .list-no-bullet {
@@ -148,12 +142,12 @@ ol {
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
     text-align: center;
-    /* color: white; */
     border-top-right-radius: 1rem;
     /* position: fixed;
-    width: -webkit-fill-available; */
+    bottom: 0;
+    right: 0;
+    left: 0; */
 }
 
 .footer .footer-header{
