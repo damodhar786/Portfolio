@@ -148,11 +148,13 @@ ol {
     bottom: 0;
     right: 0;
     left: 0; */
+    padding: 0.5rem 1rem;
+    
 }
 
 .footer .footer-header{
     font-weight: bold;
-    font-size: large;
+    font-size: xx-large;
 }
 
 .footer ul{
