@@ -12,7 +12,6 @@ body {
     font-family: 'Syne Mono', monospace;
     /* font-size: x-large; */
     margin: 0px;
-    
 }
 
 hr {
@@ -148,7 +147,7 @@ ol {
     bottom: 0;
     right: 0;
     left: 0; */
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
     
 }
 
